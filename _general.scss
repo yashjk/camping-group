@@ -1,6 +1,6 @@
 // Button Styles
 .btn {
-    padding: 1rem 3rem;
+    padding: 0.7rem 1.5rem;
     border: 1px solid $textDark;
     color: $textDark;
     background: transparent;
@@ -10,12 +10,14 @@
     letter-spacing: 0.04rem;
     cursor: pointer;
     &:hover {
-      background: rgba($textDark, 0.3);
+      background: #f34638;
     }
   }
   .btn-primary {
-    border: 1px solid $textLight;
+    border: none;
     color: $textLight;
+    background: #EF9632;
+    margin: 1rem 0;
   }
   
   // Forms
@@ -54,4 +56,32 @@
     font-weight: 300;
     letter-spacing: 0.04rem;
   }
-  
+
+  // Header
+  .logo {
+    font-weight: 300;
+    color: $textLight;
+    cursor: pointer;
+}
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #777;
+  position: absolute;
+  width: 100%;
+}
+.nav-bar {
+    a {
+        padding: 0 20px;
+        color: $textLight;
+    }
+}
+#active {
+    color: #DF903D;
+}
+
+// Hero Section
+.hero {
+  background: url("./assets/media/banner.jpg") no-repeat;
+  background-size: cover;
+}
