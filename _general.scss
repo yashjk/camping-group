@@ -74,6 +74,9 @@ header {
     a {
         padding: 0 20px;
         color: $textLight;
+        &:hover {
+          color: #DF903D;
+        }
     }
 }
 #active {
@@ -84,4 +87,34 @@ header {
 .hero {
   background: url("./assets/media/banner.jpg") no-repeat;
   background-size: cover;
+}
+
+// Footer Section
+footer {
+  padding: 6rem 0;
+  p,
+  a {
+    color: $textDark;
+    line-height: 2;
+  }
+  h4 {
+    margin: 1rem 0;
+    color: $textLight;
+  }
+  background: #1E282E;
+  input {
+    width: 100%;
+    padding: 1.2rem;
+    background: transparent;
+    border: 1px solid skyblue;
+  }
+}
+.lower-footer {
+  background: #232C33;
+  padding: 2rem 0;
+  color: $textDark;
+}
+.f_icon {
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
 }

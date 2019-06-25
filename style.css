@@ -277,6 +277,8 @@ header {
 .nav-bar a {
   padding: 0 20px;
   color: #fff; }
+  .nav-bar a:hover {
+    color: #DF903D; }
 
 #active {
   color: #DF903D; }
@@ -284,6 +286,31 @@ header {
 .hero {
   background: url("./assets/media/banner.jpg") no-repeat;
   background-size: cover; }
+
+footer {
+  padding: 6rem 0;
+  background: #1E282E; }
+  footer p,
+  footer a {
+    color: #888;
+    line-height: 2; }
+  footer h4 {
+    margin: 1rem 0;
+    color: #fff; }
+  footer input {
+    width: 100%;
+    padding: 1.2rem;
+    background: transparent;
+    border: 1px solid skyblue; }
+
+.lower-footer {
+  background: #232C33;
+  padding: 2rem 0;
+  color: #888; }
+
+.f_icon {
+  font-size: 1.5rem;
+  padding: 0 0.8rem; }
 
 .wrapper {
   max-width: 1300px;
