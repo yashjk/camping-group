@@ -4,7 +4,7 @@
   "description": "final project for html and css",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w style.scss style.css"
+    "sass": "node-sass -w ./assets/stylesheets/style.scss ./assets/stylesheets/style.css"
   },
   "repository": {
     "type": "git",

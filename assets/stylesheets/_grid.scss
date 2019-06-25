@@ -2,7 +2,7 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 0 6.5rem;
   }
   
   .grid-col2 {
@@ -22,6 +22,9 @@
   }
   
   @media all and (max-width: 768px) {
+    .wrapper {
+      padding: 0 2rem;
+    }
     .grid-col1 {
       display: grid;
       grid-template-columns: 1fr;

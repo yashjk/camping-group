@@ -116,5 +116,52 @@ footer {
 }
 .f_icon {
   font-size: 1.5rem;
-  padding: 0 0.8rem;
+  padding: 0.8rem;
+}
+
+#toggle,
+.ham {
+  display: none;
+}
+
+// Responsive Header & Footer
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .footer-div{
+    address,
+    div {
+      width: 100%;
+    }
+    justify-content: center;
+  }
+  .footer-icon {
+    margin: 0 auto;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #1F2631;
+    left: 0;
+    top: 73px;
+    .menu-link {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      color: $textLight;
+    }
+  }
+  .ham {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+    color: $textLight;
+    cursor: pointer;
+  }
+  #toggle:checked ~ .menu {
+    display: flex;
+  }
 }

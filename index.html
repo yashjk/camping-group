@@ -12,11 +12,17 @@
         <header>
             <nav class="nav-bar wrapper flex-between">
                 <h3 class="logo">Camping</h3>
-                <div>
-                    <a id="active" href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="#">More Info</a>
-                    <a href="contact.html">Contact</a>
+
+                <label class="ham" for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="toggle" type="checkbox" name="" value="" />
+
+                <div class="menu flex-between">
+                    <a id="active" href="index.html" class="menu-link">Home</a>
+                    <a href="about.html" class="menu-link">About</a>
+                    <a href="#" class="menu-link">More Info</a>
+                    <a href="contact.html" class="menu-link">Contact</a>
                 </div>
             </nav>
         </header>
@@ -66,12 +72,12 @@
                 </div>
             </div>
         </footer>
-        <div class="lower-footer">
-        <div class="flex-between wrapper">
+        <div class="lower-footer text-center">
+        <div class="flex-between wrapper footer1">
             <p>
                 &copy; 2018 Camping. All rights reserved | Design by W3layouts.
             </p>
-            <div>
+            <div class="footer-icon">
                 <i class="fab fa-facebook-square f_icon"></i>
                 <i class="fab fa-twitter f_icon"></i>
                 <i class="fab fa-google-plus-g f_icon"></i>
